@@ -1,0 +1,32 @@
+   {
+      "name": "WoW-Professions Dark Mode",
+      "version": "1.0",
+      "manifest_version": 2,
+
+      "description": "Because reading wow-professions in bright mode sometimes ache in our eyes!",
+      "icons": {"128": "fullstacks.png"},
+      "permissions": [
+        "activeTab",
+        "storage",
+        "*://*/*"
+      ],
+
+      "browser_action": {
+        "default_title": "WoW-Professions Dark Mode",
+        "default_popup": "Darken.html"
+      },
+
+      "content_scripts": [
+        {
+          "matches": ["https://*.wow-professions.com/classic/*"],
+          "js": ["Darken.js"]
+        }
+      ],
+
+      "background": {
+        "scripts": [
+          "background.js"
+        ],
+        "persistent": true
+      }
+    }
