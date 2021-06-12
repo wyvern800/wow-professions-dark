@@ -1,4 +1,4 @@
-## WoW Professions Dark Mode
+## WoW Professions Dark Mode (Chrome Extension)
 Ok, if you're like me that suffer to read stuff that aren't in dark mode, here's your salvation, I created a fast java script that will change the patterns for the sake of your reading.
 
 Chrome Extension created for World of Warcraft fansite '**wow-professions.com**' that will change the default whitened colour pattern to a darkish one (easier to read for some people like me :D)
